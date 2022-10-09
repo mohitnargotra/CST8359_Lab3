@@ -4,6 +4,10 @@
     Layout = "_Layout";
 }
 
+<form action="SongForm">
+    <input type="submit" value="Play Again!" />
+</form>
+
 @if (@Convert.ToInt32(Context.Session.GetString("numBottles")) >= 50 && @Convert.ToInt32(Context.Session.GetString("numBottles")) <= 100)
 {
 

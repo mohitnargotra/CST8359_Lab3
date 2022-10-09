@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Lab3.Models;
 using System;
+using System.Reflection;
 
 namespace Lab3.Controllers
 {
@@ -10,13 +12,13 @@ namespace Lab3.Controllers
         {
             return View();
         }
-       // public IActionResult SongForm() => View();
+       public IActionResult SongForm() => View();
 
         [HttpGet]
-        public IActionResult SongForm()
-        {
-            return View();
-        }
+        //public IActionResult SongForm()
+       // {
+      //      return View();
+      // }
 
         [HttpPost]
         public IActionResult Sing()
@@ -36,10 +38,10 @@ namespace Lab3.Controllers
         public IActionResult CreatePerson() => View();
 
         [HttpPost]
-        //public IActionResult DisplayPerson(Person person)
-       // {
-            // you will complete this
-       // }
+        public IActionResult DisplayPerson(Person person)
+        {
+            return View(person);
+        }
         public IActionResult Error()
         {
             return View();

@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <header>
+        Mohit Nargotra - Welcome to my Lab 3! 
+        @Html.ActionLink("Show the song!", "SongForm", "Home")
+        @Html.ActionLink("Home", "Index", "Home")
+        @Html.ActionLink("Persons", "CreatePerson", "Home")
+        
+    </header>
+    <div>
+        @RenderBody()
+    </div>
+    <footer>
+        Steps to include css file.
+    </footer>
+</body>
+</html>

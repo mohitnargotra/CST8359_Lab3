@@ -2,16 +2,20 @@
 
 <html>
 <head>
+    
+    <link href="@Url.Content("~/css/StyleSheet.css")" rel="stylesheet" />
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
 </head>
 <body>
     <header>
-        Mohit Nargotra - Welcome to my Lab 3! 
-        @Html.ActionLink("Home", "Index", "Home")
-        @Html.ActionLink("Show the song!", "SongForm", "Home")        
+        <h1>Mohit Nargotra</h1>
+        <h2>Welcome to my Lab 3!</h2>
+       
+        <br>      
+        @Html.ActionLink("Home", "Index", "Home") &nbsp;&nbsp;&nbsp;
+        @Html.ActionLink("Show the song!", "SongForm", "Home") &nbsp;&nbsp;&nbsp;
         @Html.ActionLink("Persons", "CreatePerson", "Home")
-        
     </header>
     <div>
         @RenderBody()

@@ -1,6 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Lab3",
+    "\\Lab3\\Controllers",
+    "\\Lab3\\Views",
+    "\\Lab3\\Views\\Home",
+    "\\Lab3\\wwwroot",
+    "\\Lab3\\wwwroot\\css"
   ],
+  "SelectedNode": "\\Lab3\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

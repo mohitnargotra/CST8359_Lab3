@@ -8,19 +8,17 @@
 }
 
 header {
-    background-color: #FDEBD0;
+    background-color: #BB8FCE;
     border-bottom: solid 1px black;
     margin: 0px;
     padding: 50px;
-    
 }
 
 footer {
-    background-color: #FDEBD0;
+    background-color: #BB8FCE;
     border-top: solid 1px black;
     margin: 0px;
     padding: 50px;
-  
 }
 
 

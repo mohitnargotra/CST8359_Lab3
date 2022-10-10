@@ -1,8 +1,6 @@
 ﻿<!DOCTYPE html>
-
 <html>
-<head>
-    
+<head>    
     <link href="@Url.Content("~/css/StyleSheet.css")" rel="stylesheet" />
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
@@ -10,18 +8,20 @@
 <body>
     <header>
         <h1>Mohit Nargotra</h1>
-        <h2>Welcome to my Lab 3!</h2>
-       
-        <br>      
+        <h2>Welcome to my Lab 3!</h2>  
+        <div class="test">
         @Html.ActionLink("Home", "Index", "Home") &nbsp;&nbsp;&nbsp;
         @Html.ActionLink("Show the song!", "SongForm", "Home") &nbsp;&nbsp;&nbsp;
-        @Html.ActionLink("Persons", "CreatePerson", "Home")
+        @Html.ActionLink("Persons", "CreatePerson", "Home")</div>
     </header>
     <div>
         @RenderBody()
     </div>
     <footer>
-        Steps to include css file.
+        To add css file I created a wwwroot folder and then added a css file in that folder.
+        <br>For adding _Layout file, I created a Shared folder in Views directory. I then added
+        <br>a Razor layout file in there and linked the css file to the layout file.
+
     </footer>
 </body>
 </html>

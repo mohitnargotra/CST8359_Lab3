@@ -25,18 +25,14 @@ namespace Lab3.Models
             set;
         }
 
-        [Required]
-        [StringLength(255)]
-        [EmailAddress]
-        public string? EmailAddress
+        
+        public string? EmailAddresss
         {
             get;
             set;
         }
 
-        [Required]
-        [StringLength(100)]
-        [BindProperty(Name = "pass")]
+     
         public string? Password
         {
             get;

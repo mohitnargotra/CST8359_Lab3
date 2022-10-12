@@ -18,9 +18,20 @@
         @RenderBody()
     </div>
     <footer>
-        To add css file I created a wwwroot folder and then added a css file in that folder.
-        <br>For adding _Layout file, I created a Shared folder in Views directory. I then added
-        <br>a Razor layout file in there and linked the css file to the layout file.
+        <br><b>CSS and Layout</b>
+        <br>To add css file, I created a wwwroot folder and then added a css file in that folder. 
+        <br>For adding _Layout file, I created a Shared folder in Views directory. 
+        <br>I then added a Razor layout file in there and linked the css file to the layout file.
+        <br>The _Layout.cshtml contains the main layout for each page. 
+        <br><br><b>Directory Structure</b>
+        <br><b>Controllers</b> are in the Controllers directory because the URL routing will decide which
+        <br>controller to use based on the C# classes' name in this directory.
+        <br><b>Views</b> are in the Views directory because when View() is called from an action in the
+        <br>controller, the corresponding view gets rendered.
+        <br><b>_Layout.cshtml</b> should be put in Shared folder in Views folder because _ViewStart.cshtml
+        <br>loads the layout file and it looks for it under shared folder.
+        <br><br><b>Default Layout</b>
+        <br>The default layout set by _ViewStart.cshtml for all the views is _Layout.cshtml. 
 
     </footer>
 </body>

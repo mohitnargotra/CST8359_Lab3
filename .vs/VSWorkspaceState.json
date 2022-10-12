@@ -3,11 +3,13 @@
     "",
     "\\Lab3",
     "\\Lab3\\Controllers",
+    "\\Lab3\\Models",
     "\\Lab3\\Views",
     "\\Lab3\\Views\\Home",
+    "\\Lab3\\Views\\Shared",
     "\\Lab3\\wwwroot",
     "\\Lab3\\wwwroot\\css"
   ],
-  "SelectedNode": "\\Lab3\\Program.cs",
+  "SelectedNode": "\\Lab3.sln",
   "PreviewInSolutionExplorer": false
 }

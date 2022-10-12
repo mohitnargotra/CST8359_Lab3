@@ -40,6 +40,15 @@ namespace Lab3.Controllers
         [HttpPost]
         public IActionResult DisplayPerson(Person person)
         {
+            String abc = person.Age.ToString();
+
+            if (person.FirstName == null || person.LastName == null || person.EmailAddresss == null || person.Password == null || person.Desc == null || abc.Length == 0 )
+            {
+                return View("Error");
+            }   
+            
+            else
+
             return View(person);
         }
         public IActionResult Error()

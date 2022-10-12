@@ -7,13 +7,13 @@ namespace Lab3.Models
     public class Person
     {
 
-        public string? FirstName
+        public string FirstName
         {
             get;
             set;
         }
 
-        public string? LastName
+        public string LastName
         {
             get;
             set;
@@ -26,20 +26,20 @@ namespace Lab3.Models
         }
 
         
-        public string? EmailAddresss
+        public string EmailAddresss
         {
             get;
             set;
         }
 
      
-        public string? Password
+        public string Password
         {
             get;
             set;
         }
 
-        public string? Desc
+        public string Desc
         {
             get;
             set;
